@@ -1,0 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/sansation');
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background-color: #141215;
+    font-family: 'Sansation', sans-serif;
+}

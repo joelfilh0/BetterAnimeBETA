@@ -44,14 +44,26 @@ body {
 .links_header {
     display: flex;
     align-items: center;
+    justify-content: space-around;
     margin: 0;
+    width: 360px;
 }
 .links_header a {
     text-decoration: none;
     color: #ffffff;
-    margin: 10px;
     font-size: 12px;
     font-weight: 800;
+    transition: 0.2s;
+}
+.link1:hover,
+.link2:hover,
+.link3:hover,
+.link4:hover,
+.link5:hover {
+    background-color: #323ee9;
+    padding: 5px 5px 10px 5px;
+    border-radius: 5px;
+    margin: -5px -5px 0 -5px;
 }
 
 .search_bar {
@@ -158,6 +170,10 @@ input::placeholder {
     align-items: center;
     position: relative;
     cursor: pointer;
+    transition: 0.2s;
+}
+.anime1:hover {
+    box-shadow: #323ee9 0 0 10px;
 }
 .anime1 img {
     width: 190px;
@@ -186,6 +202,10 @@ input::placeholder {
     position: relative;
     margin-top: 14px;
     cursor: pointer;
+    transition: 0.2s;
+}
+.anime2:hover {
+    box-shadow: #323ee9 0 0 10px;
 }
 .anime2 img {
     width: 190px;
@@ -208,6 +228,10 @@ input::placeholder {
     position: relative;
     margin-top: 14px;
     cursor: pointer;
+    transition: 0.2s;
+}
+.anime3:hover {
+    box-shadow: #323ee9 0 0 10px;
 }
 .anime3 img {
     width: 190px;
@@ -231,6 +255,7 @@ input::placeholder {
     margin-top: 50px;
     margin-left: 50px;
     cursor: pointer;
+    transition: 0.2s;
 }
 .cover_cyber {
     background-image: linear-gradient(180deg, #323EE9 0%, #6F12C6 100%);
@@ -255,9 +280,11 @@ input::placeholder {
     position: relative;
     margin-top: 50px;
     cursor: pointer;
-
+    transition: 0.2s;
 }
-
+.anime5:hover {
+    box-shadow: #323ee9 0 0 10px;
+}
 .anime5 img {
     width: 190px;
     height: 55px;

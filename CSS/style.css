@@ -171,6 +171,7 @@ input::placeholder {
     position: relative;
     cursor: pointer;
     transition: 0.2s;
+    border-radius: 15px;
 }
 .anime1:hover {
     box-shadow: #323ee9 0 0 10px;
@@ -203,6 +204,7 @@ input::placeholder {
     margin-top: 14px;
     cursor: pointer;
     transition: 0.2s;
+    border-radius: 15px;
 }
 .anime2:hover {
     box-shadow: #323ee9 0 0 10px;
@@ -229,6 +231,7 @@ input::placeholder {
     margin-top: 14px;
     cursor: pointer;
     transition: 0.2s;
+    border-radius: 15px;
 }
 .anime3:hover {
     box-shadow: #323ee9 0 0 10px;
@@ -256,6 +259,7 @@ input::placeholder {
     margin-left: 50px;
     cursor: pointer;
     transition: 0.2s;
+    border-radius: 15px;
 }
 .cover_cyber {
     background-image: linear-gradient(180deg, #323EE9 0%, #6F12C6 100%);
@@ -281,6 +285,7 @@ input::placeholder {
     margin-top: 50px;
     cursor: pointer;
     transition: 0.2s;
+    border-radius: 15px;
 }
 .anime5:hover {
     box-shadow: #323ee9 0 0 10px;

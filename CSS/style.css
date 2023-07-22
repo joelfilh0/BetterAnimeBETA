@@ -166,6 +166,7 @@ input::placeholder {
 }
 .anime1 {
     display: flex;
+    width: 190px;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -198,6 +199,7 @@ input::placeholder {
 }
 .anime2 {
     display: flex;
+    width: 190px;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -225,6 +227,7 @@ input::placeholder {
 }
 .anime3 {
     display: flex;
+    width: 190px;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -279,6 +282,7 @@ input::placeholder {
 }
 .anime5 {
     display: flex;
+    width: 190px;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -486,7 +490,7 @@ input::placeholder {
 }
 .chainsaw_grid_final:hover {
     margin-top: -15px;
-    background-color: #bf3535;
+    background-color: #e3373742;
 }
 .chainsaw_grid_final h2,h4,h5,p {
     margin: 0;
